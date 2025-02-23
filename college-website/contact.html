@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sec-header">
+       
+<nav>
+     <a href="college.html"><img src="img/logo3.jpg" ></a>
+    <div class="nav-link" id="navlinks">
+        <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="college.html">Home</a> </li>
+            <li><a href="about us.html">About Us</a> </li>
+            <li><a href="course.html">course</a> </li>
+            <li><a href="blog.html">Blogs</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+    </div>
+<i class="fa-solid fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>Contact Us</h1>
+</section>
+<section class="location">
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54533.16056645756!2d75.53221973608099!3d31.322464494600077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5a5747a9eb91%3A0xc74b34c05aa5b4b8!2sJalandhar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1697128476614!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>                 
+</section>
+<section class="Contact-us">
+<div class="row">
+    <div class="contact-coloum">
+        <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+                <h5>abc road , xyz builinding</h5>
+                <p>India,Punjab,Jalandhar</p>
+            </span>
+        </div>
+        <div>
+        <i class="fa-solid fa-phone"></i>
+            <span>
+                <h5> +91 6541148420 </h5>
+                <p>Monday TO Firday , 9:00AM to 5:00PM</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa-solid fa-message"></i>
+            <span>
+                <h5> Nitish.1001@gamai.com </h5>
+                <p>Email Us to your Questions</p>
+            </span>
+        </div>
+    </div>
+    <div class="contact-coloumn">
+        <form action="form.php" method="post"> 
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email"         placeholder="Enter Your Email" required>
+            <input type="text"  name="subject"           placeholder="Enter Your subject" required>
+            <textarea rows="10" name="message"    placeholder="message" required></textarea>
+            <button type="submit" class="btn blue-btn">Send message</button>
+        </form>
+    </div>
+
+</div>
+</section>
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+</script>
+
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printertook a galle type</p>
+<div class="icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-twitter"></i>
+</div>
+<p>made With <i class="fa-regular fa-heart"></i> Nitish Kumar</p>
+</section>
+
+
+</body>
+</html>

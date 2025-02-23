@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sec-header">
+       
+<nav>
+     <a href="college.html"><img src="img/logo3.jpg" ></a>
+    <div class="nav-link" id="navlinks">
+        <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="college.html">Home</a> </li>
+            <li><a href="about us.html">About Us</a> </li>
+            <li><a href="course.html">course</a> </li>
+            <li><a href="blog.html">Blogs</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+    </div>
+<i class="fa-solid fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1> About Us</h1>
+    </section>
+<section class="aboutus">
+    <div class="row">
+        <div class="about-coloum">
+<h1>We Are The Best University</h1>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
+Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
+Internet. It uses a dictionary of over 200</p>
+<a href="" class="btn blue-btn"> Explor now</a>
+        </div>
+        <div class="about-coloum">
+        <img src="img/about us.jpg">
+        </div>
+    </div>
+</section>
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+</script>
+
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printertook a galle type</p>
+<div class="icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-twitter"></i>
+</div>
+<p>made With <i class="fa-regular fa-heart"></i> Nitish Kumar</p>
+</section>
+
+
+</body>
+</html>
