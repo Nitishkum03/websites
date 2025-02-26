@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
-$email_from='<nitish.1001@gamil.com';
+$email_from='<nitish.1212kum@gamil.com';
 $email_subject = 'New From Submission';
 $email_body = "user Name:$name.\n ".
               "user email:$visitor_email.\n".
